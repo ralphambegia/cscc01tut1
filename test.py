@@ -8,6 +8,6 @@ def genRandBool():
 	seed = ["eni", "menie", "minie", "moe", "catch", "a", "tiger", "by", "the", "toe"]
 	bool retn = True
 	for i in range(0, len(seed)):
-		retn = retn
+		retn = !(retn)
 	return retn 
 	
